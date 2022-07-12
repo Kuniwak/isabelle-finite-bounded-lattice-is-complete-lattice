@@ -1,6 +1,6 @@
-theory "Proof" imports Main begin
+theory "Finite_Bounded_Lattice" imports Main begin
 
-locale hoge = finite + bounded_lattice
+locale finite_bounded_lattice = finite + bounded_lattice
 begin
 
 sublocale comp_fun_commute_sup: comp_fun_commute sup
